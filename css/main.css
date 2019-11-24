@@ -674,6 +674,9 @@ button {
   .button--color-white {
     color: #0f5a47;
     background-color: #fff; }
+  .button--shadow {
+    -webkit-box-shadow: 0px 10px 15px 0px #53afc3;
+    box-shadow: 0px 10px 15px 0px #53afc3; }
 
 .benefit {
   display: -webkit-box;
