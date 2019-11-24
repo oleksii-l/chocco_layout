@@ -4,6 +4,7 @@ $black: #0d0d0d;
 $gray: #666666;
 $darkgray: #333333;
 $green: #0f5a47;
+$lightblue: #b0f7ff;
 
 $z-fixed-menu: 100;
 
@@ -16,5 +17,11 @@ $z-fixed-menu: 100;
 @import "_misc/layout";
 
 // blocks
-
+@import "blocks/promo.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/phone.scss";
+@import "blocks/button.scss";
+@import "blocks/benefit.scss";
+@import "blocks/fixed_menu.scss";
 

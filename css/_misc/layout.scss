@@ -5,7 +5,6 @@ body {
 
 body {
   font-size: 18px;
-  line-height: 1.42;
   position: relative;
   @include alegreya();
   color: $gray;
@@ -20,7 +19,7 @@ body {
 }
 
 .container {
-  width: 1100px;
+  width: 945px;
   margin: 0 auto;
 }
 

@@ -1,0 +1,14 @@
+.phone {
+    font-size: 24px;
+    text-transform: uppercase;
+
+    &::before {
+        content: '';
+        background-image: url(../../img/icons/phone.png);
+        display: inline-block;
+        margin-right: 5px;
+        margin-left: 40px;
+        width: 10px;
+        height: 10px;
+    }
+}
