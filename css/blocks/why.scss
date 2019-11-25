@@ -1,12 +1,12 @@
 .why {
-  background: url(../../img/content/leaf.png) left center no-repeat;
+  background: url(../img/content/leaf.png) left center no-repeat;
   justify-content: center;
   align-items: center;
 
   &::after {
     content: "";
     display: block;
-    background: url(../../img/content/raspberries.png) no-repeat;
+    background: url(../img/content/raspberries.png) no-repeat;
     width: 161px;
     height: 315px;
     position: absolute;
@@ -39,7 +39,7 @@
     &::after {
         content: "";
         display: block;
-        background: url(../../img/icons/separator.png) no-repeat;
+        background: url(../img/icons/separator.png) no-repeat;
         width: 67px;
         height: 21px;
       }

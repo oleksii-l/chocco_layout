@@ -1,0 +1,9 @@
+.menu {
+  flex: 1; }
+
+.nav__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+/*# sourceMappingURL=nav.css.map */

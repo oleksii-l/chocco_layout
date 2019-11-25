@@ -4,4 +4,10 @@
   .phone::before {
     content: '';
     background-image: url(../../img/icons/phone.png);
-    display: block; }
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 40px;
+    width: 10px;
+    height: 10px; }
+
+/*# sourceMappingURL=phone.css.map */
