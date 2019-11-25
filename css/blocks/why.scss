@@ -36,11 +36,21 @@
 }
 
 .why__item {
+    position: relative;
+    
     &::after {
         content: "";
         display: block;
         background: url(../img/icons/separator.png) no-repeat;
         width: 67px;
         height: 21px;
+        position: absolute;
+        top: 34%;
+        left: 100%;
+        transform: translate(-50%, -50%);
+      }
+      
+      &:last-child::after {
+        display: none;
       }
 }
