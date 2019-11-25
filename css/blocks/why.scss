@@ -2,6 +2,7 @@
   background: url(../img/content/leaf.png) left center no-repeat;
   justify-content: center;
   align-items: center;
+  position: relative;
 
   &::after {
     content: "";

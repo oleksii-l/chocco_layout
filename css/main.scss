@@ -2,6 +2,7 @@
 $white: #fff;
 $black: #0d0d0d;
 $gray: #666666;
+$lightgray: #f8faf9;
 $darkgray: #333333;
 $bg_gray: #f2f5f4;
 $green: #0f5a47;
@@ -13,9 +14,9 @@ $z-fixed-menu: 100;
 @import "_misc/normalize.scss";
 
 // setups
-@import "_misc/mixins";
-@import "_misc/fonts";
-@import "_misc/layout";
+@import "_misc/mixins.scss";
+@import "_misc/fonts.scss";
+@import "_misc/layout.scss";
 
 // blocks
 @import "blocks/promo.scss";
@@ -27,4 +28,5 @@ $z-fixed-menu: 100;
 @import "blocks/fixed_menu.scss";
 @import "blocks/why.scss";
 @import "blocks/advantage.scss";
+@import "blocks/reviews.scss";
 
