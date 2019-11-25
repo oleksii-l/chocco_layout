@@ -3,6 +3,7 @@ $white: #fff;
 $black: #0d0d0d;
 $gray: #666666;
 $darkgray: #333333;
+$bg_gray: #f2f5f4;
 $green: #0f5a47;
 $lightblue: #b0f7ff;
 
@@ -24,4 +25,6 @@ $z-fixed-menu: 100;
 @import "blocks/button.scss";
 @import "blocks/benefit.scss";
 @import "blocks/fixed_menu.scss";
+@import "blocks/why.scss";
+@import "blocks/advantage.scss";
 

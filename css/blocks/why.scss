@@ -1,0 +1,46 @@
+.why {
+  background: url(../../img/content/leaf.png) left center no-repeat;
+  justify-content: center;
+  align-items: center;
+
+  &::after {
+    content: "";
+    display: block;
+    background: url(../../img/content/raspberries.png) no-repeat;
+    width: 161px;
+    height: 315px;
+    position: absolute;
+    left: 206px;
+    bottom: 59px;
+  }
+}
+
+.container_why {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.why__top {
+  width: 410px;
+  text-align: center;
+}
+
+.why__desc {
+  margin-top: 20px;
+}
+
+.why__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.why__item {
+    &::after {
+        content: "";
+        display: block;
+        background: url(../../img/icons/separator.png) no-repeat;
+        width: 67px;
+        height: 21px;
+      }
+}
