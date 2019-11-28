@@ -1,4 +1,4 @@
-.menu {
+.nav {
     flex: 1;
 }
 
@@ -8,4 +8,8 @@
     align-items: center;
 }
 
+.nav__link {
+    text-decoration: none;
+    color: inherit;
+}
 

@@ -11,8 +11,8 @@
     width: 161px;
     height: 315px;
     position: absolute;
-    left: 206px;
-    bottom: 59px;
+    left: 0px;
+    bottom: 0px;
   }
 }
 
@@ -34,6 +34,7 @@
 .why__list {
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 }
 
 .why__item {

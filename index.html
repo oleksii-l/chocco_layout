@@ -40,29 +40,29 @@
 
     <header class="header">
         <div class="container header__container">
-            <img class="logo" src="img/content/logo.png">
-            <nav class="menu">
+            <a href="" class="logo"><img class="logo__img" src="img/content/logo.png"></a>
+            <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item">
-                        О нас
+                        <a href="#" class="nav__link">О нас</a>
                     </li>
                     <li class="nav__item">
-                        Батончики
+                        <a href="#" class="nav__link">Батончики</a>
                     </li>
                     <li class="nav__item">
-                        Команда
+                        <a href="#" class="nav__link">Команда</a>
                     </li>
                     <li class="nav__item">
-                        Меню
+                        <a href="#" class="nav__link">Меню</a>
                     </li>
                     <li class="nav__item">
-                        Отзывы
+                        <a href="#" class="nav__link">Отзывы</a>
                     </li>
                     <li class="nav__item">
-                        Как мы работаем
+                        <a href="#" class="nav__link">Как мы работаем</a>
                     </li>
                     <li class="nav__item">
-                        Контакты
+                        <a href="#" class="nav__link">Контакты</a>
                     </li>
                 </ul>
             </nav>
@@ -76,41 +76,49 @@
 
     <div class="wrapper">
         <section class="section promo">
-            <div class="container">
-                <div class="promo__block">
-                    <h1 class="promo__title">
-                        натуральные шоколадные батончики
-                    </h1>
-                    <div class="promo__adv">
-                        Наши батончики идеально подходят для тех, кто следит за своим здоровьем
+            <div class="container container_promo">
+                <div class="promo__left">
+                    <div class="promo__block">
+                        <h1 class="promo__title">
+                            натуральные шоколадные батончики
+                        </h1>
+                        <div class="promo__adv">
+                            Наши батончики идеально подходят для тех, кто следит за своим здоровьем
+                        </div>
+                        <button class="button button--color-white button--shadow">
+                            заказать
+                        </button>
                     </div>
-                    <button class="button button--color-white button--shadow">
-                        заказать
-                    </button>
+                    <ul class="promo__list">
+                        <li class="promo__item">
+                            <div class="benefit">
+                                <div class="benefit__img-wrapper">
+                                    <img src="img/icons/5.svg" alt="" class="benefit__img"></img>
+                                </div>
+                                <div class="benefit__text">100% натуральный продукт</div>
+                            </div>
+                        </li>
+                        <li class="promo__item">
+                            <div class="benefit">
+                                <div class="benefit__img-wrapper">
+                                    <img src="img/icons/6.svg" alt="" class="benefit__img">
+                                </div>
+                                <div class="benefit__text">3-5 дней доставка по РФ</div>
+                            </div>
+                        </li>
+                        <li class="promo__item">
+                            <div class="benefit">
+                                <div class="benefit__img-wrapper">
+                                    <img src="img/icons/4.svg" alt="" class="benefit__img">
+                                </div>
+                                <div class="benefit__text">Не портит фигуру</div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="promo__list">
-                    <li class="promo__item">
-                        <div class="benefit">
-                            <img src="img/icons/5.svg" alt="" class="benefit__img"></img>
-                            <div class="benefit__text">100% натуральный продукт</div>
-                        </div>
-                    </li>
-                    <li class="promo__item">
-                        <div class="benefit">
-                            <img src="img/icons/6.svg" alt="" class="benefit__img">
-                            <div class="benefit__text">3-5 дней доставка по РФ</div>
-                        </div>
-                    </li>
-                    <li class="promo__item">
-                        <div class="benefit">
-                            <img src="img/icons/4.svg" alt="" class="benefit__img">
-                            <div class="benefit__text">Не портит фигуру</div>
-                        </div>
-                    </li>
-                </ul>
-
-                <img src="img/content/bars.png" alt="" class="promo__img">
-
+                <div class="promo__right">
+                    <img src="img/content/bars.png" alt="" class="promo__img">
+                </div>
             </div>
         </section>
 
@@ -133,11 +141,13 @@
                             <div class="advantage__top">
                                 <img src="img/icons/1.svg" alt="" class="advantage__img">
                             </div>
+                            <div class="advantage__block">
+                                <h3 class="advantage__title">Полезно</h3>
+                                <div class="advantage__desc">Натуральность - ключевое качество
+                                    нашей продукции. Мы используем
+                                    только природные ингредиенты.</div>
+                            </div>
 
-                            <h3 class="advantage__title">Полезно</h3>
-                            <div class="advantage__desc">Натуральность - ключевое качество
-                                нашей продукции. Мы используем
-                                только природные ингредиенты.</div>
                         </div>
                     </li>
                     <li class="why__item">
@@ -145,10 +155,12 @@
                             <div class="advantage__top">
                                 <img src="img/icons/3.svg" alt="" class="advantage__img">
                             </div>
-                            <h3 class="advantage__title">Вкусно</h3>
-                            <div class="advantage__desc">Нежный, ненавязчивый, изысканный –
-                                так клиенты описывают вкусовые
-                                качества наших батончиков.</div>
+                            <div class="advantage__block">
+                                <h3 class="advantage__title">Вкусно</h3>
+                                <div class="advantage__desc">Нежный, ненавязчивый, изысканный –
+                                    так клиенты описывают вкусовые
+                                    качества наших батончиков.</div>
+                            </div>
                         </div>
                     </li>
                     <li class="why__item">
@@ -156,10 +168,12 @@
                             <div class="advantage__top">
                                 <img src="img/icons/2.svg" alt="" class="advantage__img">
                             </div>
-                            <h3 class="advantage__title">Питательно</h3>
-                            <div class="advantage__desc">Высокое содержание качественного
-                                белка, а также всех необходимых
-                                витаминов и минералов.</div>
+                            <div class="advantage__block">
+                                <h3 class="advantage__title">Питательно</h3>
+                                <div class="advantage__desc">Высокое содержание качественного
+                                    белка, а также всех необходимых
+                                    витаминов и минералов.</div>
+                            </div>
                         </div>
                     </li>
                 </ul>
@@ -171,11 +185,15 @@
                 <div class="container container_reviews">
                     <h2 class="title">отзывы</h2>
                     <div class="review">
-                        <img src="img/content/alena.jpg" alt="" class="review__img">
+                        <div class="review__img-wrapper">
+                            <img src="img/content/alena.jpg" alt="" class="review__img">
+                        </div>
                         <div class="review__desc">
                             <h3>Лучший перекус</h3>
-                            <p>Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня сижу за компьютером 
-                                и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он всегда под рукой. Это приятно 
+                            <p>Я ем малыми порциями, но часто. Это повышает мою продуктивность в разы. В течение дня
+                                сижу за компьютером
+                                и часто отходить в кафе или на кухню просто не могу себе позволить. А батончик – он
+                                всегда под рукой. Это приятно
                                 и удобно.
                             </p>
                             <h4>Алена Хмельницкая</h4>
@@ -183,13 +201,19 @@
                     </div>
                     <ul class="reviews__list">
                         <li class="reviews__item reviews__item--active">
-                            <img src="img/content/alena.jpg" alt="" class="reviews__img">
+                            <a href="#" class="reviews__link">
+                                <img src="img/content/alena.jpg" alt="" class="reviews__img">
+                            </a>
                         </li>
                         <li class="reviews__item">
-                            <img src="img/content/maria.png" alt="" class="reviews__img">
+                            <a href="#" class="reviews__link">
+                                <img src="img/content/maria.png" alt="" class="reviews__img">
+                            </a>
                         </li>
                         <li class="reviews__item">
-                            <img src="img/content/vadim.jpg" alt="" class="reviews__img">
+                            <a href="#" class="reviews__link">
+                                <img src="img/content/vadim.jpg" alt="" class="reviews__img">
+                            </a>
                         </li>
                     </ul>
                 </div>

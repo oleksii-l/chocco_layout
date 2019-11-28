@@ -1,3 +1,7 @@
+.container_promo {
+  display: flex;
+}
+
 .promo {
   background-image: url(../img/bg/main.jpg);
   background-repeat: no-repeat;
@@ -12,8 +16,8 @@
     width: 458px;
     height: 339px;
     position: absolute;
-    bottom: 200px;
-    right: 222px;
+    bottom: 0px;
+    right: 0px;
   }
 
   &::before {
@@ -23,13 +27,9 @@
     width: 56px;
     height: 100px;
     position: absolute;
-    bottom: 171px;
-    left: 226px;
+    bottom: 0px;
+    left: 0px;
   }
-}
-
-.promo__block {
-  width: 410px;
 }
 
 .promo__title {
@@ -50,8 +50,10 @@
   margin-top: 49px;
 }
 
-.promo__img {
-  position: absolute;
-  top: 130px;
-  left: 775px;
+.promo__item {
+  margin-right: 4px;
+
+  &:last-child {
+    margin-right: 0;
+}
 }

@@ -561,6 +561,11 @@ button {
   cursor: pointer;
   color: inherit; }
 
+.container_promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
 .promo {
   background-image: url(../img/bg/main.jpg);
   background-repeat: no-repeat;
@@ -574,8 +579,8 @@ button {
     width: 458px;
     height: 339px;
     position: absolute;
-    bottom: 200px;
-    right: 222px; }
+    bottom: 0px;
+    right: 0px; }
   .promo::before {
     content: "";
     display: block;
@@ -583,11 +588,8 @@ button {
     width: 56px;
     height: 100px;
     position: absolute;
-    bottom: 171px;
-    left: 226px; }
-
-.promo__block {
-  width: 410px; }
+    bottom: 0px;
+    left: 0px; }
 
 .promo__title {
   font-size: 60px;
@@ -610,10 +612,10 @@ button {
   width: 470px;
   margin-top: 49px; }
 
-.promo__img {
-  position: absolute;
-  top: 130px;
-  left: 775px; }
+.promo__item {
+  margin-right: 4px; }
+  .promo__item:last-child {
+    margin-right: 0; }
 
 .header {
   display: -webkit-box;
@@ -636,7 +638,7 @@ button {
   align-items: center;
   margin-top: 24px; }
 
-.menu {
+.nav {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1; }
@@ -651,15 +653,19 @@ button {
   -ms-flex-align: center;
   align-items: center; }
 
+.nav__link {
+  text-decoration: none;
+  color: inherit; }
+
 .phone {
   font-size: 24px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-left: 40px; }
   .phone::before {
     content: '';
     background-image: url(../img/icons/phone.png);
     display: inline-block;
     margin-right: 5px;
-    margin-left: 40px;
     width: 10px;
     height: 10px; }
 
@@ -684,10 +690,14 @@ button {
   display: -ms-flexbox;
   display: flex; }
 
-.benefit__img {
+.benefit__img-wrapper {
   width: 49px;
   height: 45px;
   margin-right: 5px; }
+
+.benefit__img {
+  max-width: 100%;
+  max-height: 100%; }
 
 .fixed-menu {
   position: fixed;
@@ -734,8 +744,8 @@ button {
     width: 161px;
     height: 315px;
     position: absolute;
-    left: 206px;
-    bottom: 59px; }
+    left: 0px;
+    bottom: 0px; }
 
 .container_why {
   display: -webkit-box;
@@ -762,7 +772,8 @@ button {
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 60px; }
 
 .why__item {
   position: relative; }
@@ -782,7 +793,6 @@ button {
     display: none; }
 
 .advantage {
-  margin-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -798,7 +808,9 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative; }
+  position: relative;
+  width: 69px;
+  height: 69px; }
   .advantage__top::before {
     content: "";
     display: block;
@@ -814,10 +826,22 @@ button {
     transform: translate(-50%, -50%);
     z-index: -1; }
 
+.advantage__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 .advantage__img {
-  width: 69px;
-  height: 69px;
-  z-index: 2; }
+  z-index: 2;
+  max-width: 100%;
+  max-height: 100%; }
 
 .advantage__title {
   font-size: 27px;
@@ -840,8 +864,8 @@ button {
     position: absolute;
     width: 150px;
     height: 86px;
-    top: 175px;
-    right: 181px; }
+    top: 0px;
+    right: 0px; }
   .reviews::before {
     content: '';
     background-image: url(../img/content/berries2.png);
@@ -849,8 +873,8 @@ button {
     position: absolute;
     width: 135px;
     height: 193px;
-    bottom: 60px;
-    left: 154px; }
+    bottom: 0px;
+    left: 0px; }
 
 .review {
   display: -webkit-box;
@@ -863,9 +887,14 @@ button {
   padding: 50px 180px 35px 46px;
   margin-top: 40px; }
 
-.review__img {
+.review__img-wrapper {
   width: 254px;
   height: 261px;
+  overflow: hidden; }
+
+.review__img {
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
   object-fit: cover; }
 
@@ -880,7 +909,8 @@ button {
 .review__desc p {
   color: #666666;
   margin-top: 30px;
-  font-weight: 300; }
+  font-weight: 300;
+  width: 70%; }
 
 .review__desc h4 {
   color: #666666;
@@ -912,3 +942,6 @@ button {
 
 .reviews__item--active .reviews__img {
   border: 6px solid #0f5a47; }
+
+.reviews__item--active .reviews__link {
+  cursor: default; }

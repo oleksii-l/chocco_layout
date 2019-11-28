@@ -1,11 +1,15 @@
 .benefit {
     display: flex;
-    
 }
 
-.benefit__img {
+.benefit__img-wrapper {
     width: 49px;
     height: 45px;
     margin-right: 5px;
+}
+
+.benefit__img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
