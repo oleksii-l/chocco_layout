@@ -497,7 +497,8 @@ body {
 
 .container {
   width: 945px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  z-index: 2; }
 
 .section {
   height: 100vh;
@@ -890,7 +891,9 @@ button {
 .review__img-wrapper {
   width: 254px;
   height: 261px;
-  overflow: hidden; }
+  overflow: hidden;
+  -ms-flex-negative: 0;
+  flex-shrink: 0; }
 
 .review__img {
   width: 100%;

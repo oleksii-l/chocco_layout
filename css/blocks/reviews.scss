@@ -41,6 +41,7 @@
     width: 254px;
     height: 261px;
     overflow: hidden;
+    flex-shrink: 0;
 }
 
 .review__img {
@@ -48,6 +49,7 @@
     height: 100%;
     object-fit: cover;
 }
+
 
 .review__desc {
     margin-left: 15px;
