@@ -512,7 +512,8 @@ body {
   flex-direction: column;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
 
 .title {
   font-family: 'Alegreya Sans', Helvetica, sans-serif;
@@ -948,3 +949,97 @@ button {
 
 .reviews__item--active .reviews__link {
   cursor: default; }
+
+.team {
+  background-image: url(../img/bg/leaf3.png);
+  background-position: right top;
+  background-repeat: no-repeat; }
+  .team::before {
+    content: '';
+    display: block;
+    background-image: url(../img/bg/berry3.png);
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 111px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px; }
+  .team::after {
+    content: '';
+    display: block;
+    background-image: url(../img/bg/berries3.png);
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 112px;
+    position: absolute;
+    top: 0px;
+    right: 0px; }
+
+.team-members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 60px; }
+
+.team-members__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-right: 20px; }
+  .team-members__item:last-child {
+    margin-right: 0; }
+  .team-members__item--active .team-members__desc {
+    width: 100%; }
+  .team-members__item--active .team-members__name::after {
+    background-image: url(../img/bg/arrow_up.png); }
+
+.team-members__img-wrapper {
+  width: 220px;
+  height: 287px; }
+
+.team-members__img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.team-members__name {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 27px;
+  position: relative; }
+  .team-members__name:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(../img/bg/arrow_down.png);
+    width: 9px;
+    height: 7px;
+    top: 50%;
+    right: -15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.team-members__job {
+  margin-top: 18px; }
+
+.team-members__desc {
+  text-align: center;
+  font-weight: 300;
+  color: #666666;
+  margin-top: 11px;
+  width: 0;
+  overflow: hidden; }
