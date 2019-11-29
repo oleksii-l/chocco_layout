@@ -48,6 +48,10 @@
       width: 100%;
   }
 
+  &--active .team-members__job{
+    width: 100%;
+}
+
   &--active .team-members__name::after{
       background-image: url(../img/bg/arrow_up.png);
   }
@@ -87,6 +91,9 @@
 
 .team-members__job {
     margin-top: 18px;
+    width: 0;
+    overflow: hidden;
+    text-align: center;
 }
 
 .team-members__desc {

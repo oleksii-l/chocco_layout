@@ -1000,6 +1000,8 @@ button {
     margin-right: 0; }
   .team-members__item--active .team-members__desc {
     width: 100%; }
+  .team-members__item--active .team-members__job {
+    width: 100%; }
   .team-members__item--active .team-members__name::after {
     background-image: url(../img/bg/arrow_up.png); }
 
@@ -1034,7 +1036,10 @@ button {
     transform: translateY(-50%); }
 
 .team-members__job {
-  margin-top: 18px; }
+  margin-top: 18px;
+  width: 0;
+  overflow: hidden;
+  text-align: center; }
 
 .team-members__desc {
   text-align: center;
