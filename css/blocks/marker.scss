@@ -1,0 +1,16 @@
+.marker {
+      width: 46px;
+      height: 57px;
+      position: absolute; 
+}
+
+.marker__img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.marker--1 {
+    top: 50%;
+    left: 50%;
+}

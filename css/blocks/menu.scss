@@ -1,0 +1,76 @@
+.container_menu {
+    height: 100vh;
+    color: $white;
+}
+
+.menu__block{
+    display: flex;
+    width: 20%;
+    background-image: url(../img/bg/menu_left.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    
+}
+
+.menu {
+    display: flex;
+}
+
+.menu__item {
+    display: flex;
+    font-size: 48px;
+    font-weight: 500;
+
+    &--milk .menu__title {
+        background-image: url(../img/bg/bars_milk.jpg);
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+
+    &--honey .menu__title {
+        background-image: url(../img/bg/bars_honey.jpg);
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+
+    &--wild .menu__title {
+        background-image: url(../img/bg/bars_wildberries.jpg);
+        background-position: left top;
+        background-repeat: no-repeat;
+    }
+
+    &--active .menu__desc {
+        position: relative;
+
+        &::after {
+            content: "";
+            opacity: 0.5;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;  
+            border-color: $black;
+          }
+    }
+
+    &--active .menu__title{
+        width: 10%;
+    }
+}
+
+.menu__title {
+
+    &--right {
+        width: 0;
+        overflow: hidden;
+    }
+}
+
+.menu__desc {
+    font-size: 16px;
+    width: 0;
+    overflow: hidden;
+}

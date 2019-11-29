@@ -525,6 +525,8 @@ body {
   text-transform: uppercase; }
   .title--color--green {
     color: #0f5a47; }
+  .title--color--white {
+    color: #fff; }
 
 h1,
 h2,
@@ -670,6 +672,8 @@ button {
     margin-right: 5px;
     width: 10px;
     height: 10px; }
+  .phone--color--green {
+    color: #0f5a47; }
 
 .button {
   color: #fff;
@@ -1048,3 +1052,139 @@ button {
   margin-top: 11px;
   width: 0;
   overflow: hidden; }
+
+.container_menu {
+  height: 100vh;
+  color: #fff; }
+
+.menu__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+  background-image: url(../img/bg/menu_left.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover; }
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.menu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 48px;
+  font-weight: 500; }
+  .menu__item--milk .menu__title {
+    background-image: url(../img/bg/bars_milk.jpg);
+    background-position: left top;
+    background-repeat: no-repeat; }
+  .menu__item--honey .menu__title {
+    background-image: url(../img/bg/bars_honey.jpg);
+    background-position: left top;
+    background-repeat: no-repeat; }
+  .menu__item--wild .menu__title {
+    background-image: url(../img/bg/bars_wildberries.jpg);
+    background-position: left top;
+    background-repeat: no-repeat; }
+  .menu__item--active .menu__desc {
+    position: relative; }
+    .menu__item--active .menu__desc::after {
+      content: "";
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      border-color: #0d0d0d; }
+  .menu__item--active .menu__title {
+    width: 10%; }
+
+.menu__title--right {
+  width: 0;
+  overflow: hidden; }
+
+.menu__desc {
+  font-size: 16px;
+  width: 0;
+  overflow: hidden; }
+
+.form {
+  padding: 85px 80px 90px 80px; }
+
+.form__elem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.form__column {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 20px; }
+  .form__column:last-child {
+    margin-right: 0; }
+
+.form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px; }
+
+.form__block {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  margin-right: 20px;
+  display: block; }
+  .form__block:last-child {
+    margin-right: 0; }
+
+.form__input {
+  background: #fff;
+  border-radius: 3px;
+  border: none;
+  padding: 8px 21px;
+  width: 100%;
+  height: 60px; }
+  .form__input--textarea {
+    resize: none;
+    height: 110px; }
+
+.form__clear {
+  margin-left: 20px; }
+
+.order {
+  color: #0f5a47;
+  background-image: url(../img/bg/order.png); }
+
+.map__img-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.map__img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.marker {
+  width: 46px;
+  height: 57px;
+  position: absolute; }
+
+.marker__img {
+  max-height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover; }
+
+.marker--1 {
+  top: 50%;
+  left: 50%; }
