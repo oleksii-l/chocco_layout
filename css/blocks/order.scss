@@ -1,4 +1,25 @@
 .order {
-    color: $green;
-    background-image: url(../img/bg/order.png);
+  color: $green;
+  background-image: url(../img/bg/order.png);
+  background-size: cover;
+
+  &::before {
+    content: "";
+    background-image: url(../img/bg/berry4.png);
+    width: 47px;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  &::after {
+    content: "";
+    width: 135px;
+    height: 188px;
+    position: absolute;
+    background-image: url(../img/bg/leaf4.png);
+    bottom: 0;
+    right: 0;
+  }
 }

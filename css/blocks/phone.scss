@@ -3,6 +3,10 @@
     text-transform: uppercase;
     margin-left: 40px;
 
+    &--left {
+        margin-left: 0;
+    }
+
     &::before {
         content: '';
         background-image: url(../img/icons/phone.png);

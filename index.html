@@ -339,27 +339,37 @@
 
                         </div>
                         <div class="form__column">
-                            <label class="form__block">
-                                <div class="form__block-title">Комментарий</div>
-                                <textarea class="form__input form__input--textarea"></textarea>
-                            </label>
                             <div class="form__row">
                                 <label class="form__block">
-                                    <div class="form__block-title">Потребуется сдача</div>
-                                    <input type="radio" name="change" class="form__input">
-                                </label>
-                                <label class="form__block">
-                                    <div class="form__block-title">Оплата по карте</div>
-                                    <input type="radio" name="change" class="form__input" checked>
+                                    <div class="form__block-title">Комментарий</div>
+                                    <textarea class="form__input form__input--textarea"></textarea>
                                 </label>
                             </div>
-                            <label class="form__block">
-                                <div class="form__block-title">Не перезванивать</div>
-                                <input type="checkbox" class="form__input" checked>
-                            </label>
 
-                            <button type="submit" class="button">Заказать</button>
-                            <button type="reset" class="form__clear">Очистить</button>
+                            <div class="form__row">
+                                <label class="form__block form__block--inline">
+                                    <input type="radio" name="change" class="form__input form__input--radio">
+                                    <span class="form__radio-fake"></span>
+                                    <div class="form__block-title">Потребуется сдача</div>
+                                </label>
+                                <label class="form__block form__block--inline">
+                                    <input type="radio" name="change" class="form__input form__input--radio" checked>
+                                    <span class="form__radio-fake"></span>
+                                    <div class="form__block-title">Оплата по карте</div>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <label class="form__block form__block--inline">
+                                    <input type="checkbox" class="form__input form__input--checkbox" checked>
+                                    <span class="form__checkbox-fake"></span>
+                                    <div class="form__block-title">Не перезванивать</div>
+                                </label>
+                            </div>
+                            <div class="form__row">
+                                <button type="submit" class="button">Заказать</button>
+                                <button type="reset" class="form__clear">Очистить</button>
+                            </div>
+
                         </div>
                     </form>
                 </div>
@@ -373,10 +383,22 @@
                     <div class="marker marker--1">
                         <img src="img/content/marker.png" alt="" class="marker__img">
                     </div>
+                    <div class="marker marker--2">
+                        <img src="img/content/marker.png" alt="" class="marker__img">
+                    </div>
+                    <div class="marker marker--3">
+                        <img src="img/content/marker.png" alt="" class="marker__img">
+                    </div>
+                    <div class="marker marker--4">
+                        <img src="img/content/marker.png" alt="" class="marker__img">
+                    </div>
                 </div>
                 <div class="contacts">
                     <div class="contacts__left">
-                        <div class="phone phone--color--green">
+                        <div class="contacts__address">
+                            Москва, ул.Новый Арбат, д.31/12
+                        </div>
+                        <div class="phone phone--color--green phone--left">
                             8 800 903 90 90
                         </div>
                     </div>
@@ -387,7 +409,7 @@
                     </div>
                 </div>
             </div>
-            
+
         </section>
 
     </div>
