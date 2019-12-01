@@ -16,7 +16,7 @@
     width: 458px;
     height: 339px;
     position: absolute;
-    bottom: 0px;
+    bottom: -50px;
     right: 0px;
   }
 
@@ -27,7 +27,7 @@
     width: 56px;
     height: 100px;
     position: absolute;
-    bottom: 0px;
+    bottom: -50px;
     left: 0px;
   }
 }
@@ -40,6 +40,7 @@
 
 .promo__adv {
   font-size: 21px;
+  margin-bottom: 30px;
 }
 
 .promo__list {

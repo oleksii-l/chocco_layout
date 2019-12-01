@@ -1,10 +1,24 @@
+.container_contacts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+}
 .contacts__left {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 80px;
+}
+
+.contacts__right{
+    width: 20%;
 }
 
 .contacts__address{
     font-size: 21px;
+    color: $extrablack;
 }

@@ -1,0 +1,17 @@
+.socials{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__icon {
+    width: 21px;
+    height: 21px;
+    object-fit: cover;
+}
+
+.social__item{
+
+    &--active .social__icon{
+        background-color: $extrablack;
+    }
+}

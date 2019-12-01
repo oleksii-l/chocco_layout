@@ -11,8 +11,9 @@
         width: 104px;
         height: 111px;
         position: absolute;
-        bottom: 0px;
+        bottom: -23px;
         left: 0px;
+        z-index: 10;
     }
 
     &::after {
@@ -23,7 +24,7 @@
         width: 135px;
         height: 112px;
         position: absolute;
-        top: 0px;
+        top: -39px;
         right: 0px;
     }
 }
