@@ -6,20 +6,20 @@
   &::before {
     content: "";
     background-image: url(../img/bg/berry4.png);
-    width: 47px;
-    height: 48px;
+    width: rem(47px);
+    height: rem(48px);
     position: absolute;
-    bottom: 226px;
-    left: 247px;
+    bottom: rem(226px);
+    left: rem(247px);
   }
 
   &::after {
     content: "";
-    width: 135px;
-    height: 188px;
+    width: rem(135px);
+    height: rem(188px);
     position: absolute;
     background-image: url(../img/bg/leaf4.png);
-    bottom: 187px;
-    right: 15px;
+    bottom: rem(187px);
+    right: rem(15px);
   }
 }

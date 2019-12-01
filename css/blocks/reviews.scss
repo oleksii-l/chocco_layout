@@ -9,10 +9,10 @@
         background-image: url(../img/content/berry.png);
         display: block;
         position: absolute;
-        width: 150px;
-        height: 86px;
-        top: 90px;
-        right: 0px;
+        width: rem(150px);
+        height: rem(86px);
+        top: rem(90px);
+        right: rem(0px);
     }
 
     &::before {
@@ -20,10 +20,10 @@
         background-image: url(../img/content/berries2.png);
         display: block;
         position: absolute;
-        width: 135px;
-        height: 193px;
-        bottom: -67px;
-        left: 0px;
+        width: rem(135px);
+        height: rem(193px);
+        bottom: rem(-67px);
+        left: rem(0px);
         z-index: 5;
     }
 }
@@ -34,13 +34,13 @@
     background-image: url(../img/content/bg2.png);    
     background-position: right top;
     background-repeat: no-repeat;
-    padding: 50px 180px 35px 46px;
-    margin-top: 40px;
+    padding: rem(50px) rem(180px) rem(35px) rem(46px);
+    margin-top: rem(40px);
 }
 
 .review__img-wrapper {
-    width: 254px;
-    height: 261px;
+    width: rem(254px);
+    height: rem(261px);
     overflow: hidden;
     flex-shrink: 0;
 }
@@ -53,38 +53,38 @@
 
 
 .review__desc {
-    margin-left: 15px;
+    margin-left: rem(15px);
 }
 
 .review__desc h3 {
-    font-size: 30px;
+    font-size: rem(30px);
     font-weight: 700;
-    margin-top: 23px;
+    margin-top: rem(23px);
 }
 
 .review__desc p {
     color: $gray;
-    margin-top: 30px;
+    margin-top: rem(30px);
     font-weight: 300;
     width: 70%;
 }
 
 .review__desc h4 {
     color: $gray;
-    margin-top: 35px;
+    margin-top: rem(35px);
     font-weight: 400;
 }
 
 .reviews__list {
     display: flex;
     justify-content: center;
-    margin-top: 28px;
+    margin-top: rem(28px);
 }
 
 .reviews__item {
-    margin-right: 10px;
-    width: 69px;
-    height: 69px;
+    margin-right: rem(10px);
+    width: rem(69px);
+    height: rem(69px);
 
     &:last-child {
         margin-right: 0;

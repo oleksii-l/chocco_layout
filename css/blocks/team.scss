@@ -8,11 +8,11 @@
         display: block;
         background-image: url(../img/bg/berry3.png);
         background-repeat: no-repeat;
-        width: 104px;
-        height: 111px;
+        width: rem(104px);
+        height: rem(111px);
         position: absolute;
-        bottom: -23px;
-        left: 0px;
+        bottom: rem(-23px);
+        left: rem(0px);
         z-index: 10;
     }
 
@@ -21,25 +21,25 @@
         display: block;
         background-image: url(../img/bg/berries3.png);
         background-repeat: no-repeat;
-        width: 135px;
-        height: 112px;
+        width: rem(135px);
+        height: rem(112px);
         position: absolute;
-        top: -39px;
-        right: 0px;
+        top: rem(-39px);
+        right: rem(0px);
     }
 }
 
 .team-members {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: rem(60px);
 }
 
 .team-members__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 20px;
+  margin-right: rem(20px);
 
   &:last-child {
       margin-right: 0;
@@ -59,8 +59,8 @@
 }
 
 .team-members__img-wrapper {
-  width: 220px;
-  height: 287px;
+  width: rem(220px);
+  height: rem(287px);
 }
 
 .team-members__img {
@@ -72,9 +72,9 @@
 }
 
 .team-members__name {
-    font-size: 20px;
+    font-size: rem(20px);
     font-weight: 800;
-    margin-top: 27px;
+    margin-top: rem(27px);
     position: relative;
 
     &:after {
@@ -82,16 +82,16 @@
         display: block;
         position: absolute;
         background-image: url(../img/bg/arrow_down.png);
-        width: 9px;
-        height: 7px;
+        width: rem(9px);
+        height: rem(7px);
         top: 50%;
-        right: -15px;
+        right: rem(-15px);
         transform: translateY(-50%);
     }
 }
 
 .team-members__job {
-    margin-top: 18px;
+    margin-top: rem(18px);
     width: 0;
     overflow: hidden;
     text-align: center;
@@ -101,7 +101,7 @@
     text-align: center;
     font-weight: 300;
     color: $gray;
-    margin-top: 11px;
+    margin-top: rem(11px);
     width: 0;
     overflow: hidden;
 

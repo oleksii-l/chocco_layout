@@ -1,10 +1,14 @@
+html {
+  font-size: 16px;
+}
+
 html,
 body {
   height: 100%;
 }
 
 body {
-  font-size: 18px;
+  font-size: rem(18px);
   position: relative;
   @include alegreya();
   color: $gray;
@@ -19,14 +23,14 @@ body {
 }
 
 .container {
-  width: 945px;
+  width: rem(945px);
   margin: 0 auto;
   z-index: 2;
 }
 
 .section {
   height: 100vh;
-  min-height: 650px;
+  min-height: rem(650px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +39,7 @@ body {
 
 .title {
   @include alegreya();
-  font-size: 48px;
+  font-size: rem(48px);
   color: $black;
   line-height: 1;
   text-align: center;

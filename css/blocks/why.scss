@@ -8,11 +8,11 @@
     content: "";
     display: block;
     background: url(../img/content/raspberries.png) no-repeat;
-    width: 161px;
-    height: 315px;
+    width: rem(161px);
+    height: rem(315px);
     position: absolute;
-    left: 0px;
-    bottom: -111px;
+    left: rem(0px);
+    bottom: rem(-111px);
   }
 }
 
@@ -23,18 +23,18 @@
 }
 
 .why__top {
-  width: 410px;
+  width: rem(410px);
   text-align: center;
 }
 
 .why__desc {
-  margin-top: 20px;
+  margin-top: rem(20px);
 }
 
 .why__list {
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: rem(60px);
 }
 
 .why__item {
@@ -44,8 +44,8 @@
         content: "";
         display: block;
         background: url(../img/icons/separator.png) no-repeat;
-        width: 67px;
-        height: 21px;
+        width: rem(67px);
+        height: rem(21px);
         position: absolute;
         top: 34%;
         left: 100%;

@@ -9,14 +9,14 @@
 .advantage__top {
   display: flex;
   position: relative;
-  width: 69px;
-  height: 69px;
+  width: rem(69px);
+  height: rem(69px);
 
   &::before {
     content: "";
     display: block;
-    width: 126px;
-    height: 126px;
+    width: rem(126px);
+    height: rem(126px);
     background-color: $bg_gray;
     border-radius: 100%;
     position: absolute;
@@ -40,13 +40,13 @@
 }
 
 .advantage__title {
-  font-size: 27px;
+  font-size: rem(27px);
   font-weight: 800;
-  margin-top: 35px;
+  margin-top: rem(35px);
 }
 
 .advantage__desc {
   font-weight: 300;
-  margin-top: 30px;
+  margin-top: rem(30px);
   text-align: center;
 }

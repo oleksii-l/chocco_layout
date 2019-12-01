@@ -13,46 +13,46 @@
     content: "";
     display: block;
     background: url(../img/content/berries.png) no-repeat;
-    width: 458px;
-    height: 339px;
+    width: rem(458px);
+    height: rem(339px);
     position: absolute;
-    bottom: -50px;
-    right: 0px;
+    bottom: rem(-50px);
+    right: rem(0px);
   }
 
   &::before {
     content: "";
     display: block;
     background: url(../img/content/leaf3.png) no-repeat;
-    width: 56px;
-    height: 100px;
+    width: rem(56px);
+    height: rem(100px);
     position: absolute;
-    bottom: -50px;
-    left: 0px;
+    bottom: rem(-50px);
+    left: rem(0px);
   }
 }
 
 .promo__title {
-  font-size: 60px;
+  font-size: rem(60px);
   font-weight: bold;
   text-transform: uppercase;
 }
 
 .promo__adv {
-  font-size: 21px;
-  margin-bottom: 30px;
+  font-size: rem(21px);
+  margin-bottom: rem(30px);
 }
 
 .promo__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 470px;
-  margin-top: 49px;
+  width: rem(470px);
+  margin-top: rem(49px);
 }
 
 .promo__item {
-  margin-right: 4px;
+  margin-right: rem(4px);
 
   &:last-child {
     margin-right: 0;

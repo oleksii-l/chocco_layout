@@ -58,7 +58,7 @@
 }
 
 .menu__title {
-  font-size: 48px;
+  font-size: rem(48px);
   font-weight: 500;
   white-space: nowrap;
   transform: rotate(-90deg);
@@ -68,7 +68,7 @@
 }
 
 .menu__content {
-  font-size: 16px;
+  font-size: rem(16px);
   width: 0;
   overflow: hidden;
   background-color: rgba(47, 50, 52, 0.93);
@@ -82,10 +82,10 @@
 .menu__close {
   opacity: 0.702;
   position: absolute;
-  left: 570px;
-  top: 31px;
-  width: 18px;
-  height: 18px;
+  left: rem(570px);
+  top: rem(31px);
+  width: rem(18px);
+  height: rem(18px);
   z-index: 170;
   background-image: url(../img/icons/close.png);
 }

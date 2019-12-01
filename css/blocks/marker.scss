@@ -1,6 +1,6 @@
 .marker {
-      width: 46px;
-      height: 57px;
+      width: rem(46px);
+      height: rem(57px);
       position: absolute; 
 }
 
@@ -11,21 +11,21 @@
 }
 
 .marker--1 {
-    top: 100px;
-    right: 100px;
+    top: rem(100px);
+    right: rem(100px);
 }
 
 .marker--2 {
-    top: 200px;
-    left: 200px;
+    top: rem(200px);
+    left: rem(200px);
 }
 
 .marker--3 {
-    top: 500px;
-    left: 150px;
+    top: rem(500px);
+    left: rem(150px);
 }
 
 .marker--4 {
-    top: 650px;
-    left: 300px;
+    top: rem(650px);
+    left: rem(300px);
 }

@@ -15,6 +15,7 @@ $z-fixed-menu: 100;
 @import "_misc/normalize.scss";
 
 // setups
+@import "_misc/media.scss";
 @import "_misc/mixins.scss";
 @import "_misc/fonts.scss";
 @import "_misc/layout.scss";
@@ -37,5 +38,5 @@ $z-fixed-menu: 100;
 @import "blocks/map.scss";
 @import "blocks/marker.scss";
 @import "blocks/contacts.scss";
-@import "blocks/social.scss"
+@import "blocks/social.scss";
 

@@ -1,7 +1,7 @@
 .phone {
-    font-size: 24px;
+    font-size: rem(24px);
     text-transform: uppercase;
-    margin-left: 40px;
+    margin-left: rem(40px);
 
     &--left {
         margin-left: 0;
@@ -11,9 +11,9 @@
         content: '';
         background-image: url(../img/icons/phone.png);
         display: inline-block;
-        margin-right: 5px;
-        width: 10px;
-        height: 10px;
+        margin-right: rem(5px);
+        width: rem(10px);
+        height: rem(10px);
     }
 
     &--color--green {
