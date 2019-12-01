@@ -1055,21 +1055,25 @@ button {
   width: 0;
   overflow: hidden; }
 
-.container_menu {
-  height: 100vh;
-  color: #fff; }
-
-.menu__block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 20%;
+.menu {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  position: relative;
   background-image: url(../img/bg/menu_left.jpg);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: cover; }
 
-.menu {
+.container_menu {
+  color: #fff; }
+
+.title--menu {
+  position: absolute;
+  top: 15%;
+  left: 10%; }
+
+.menu__accardeon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -1077,44 +1081,25 @@ button {
 .menu__item {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: flex; }
+
+.menu__link {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  font-size: 48px;
-  font-weight: 500; }
-  .menu__item--milk .menu__title {
-    background-image: url(../img/bg/bars_milk.jpg);
-    background-position: left top;
-    background-repeat: no-repeat; }
-  .menu__item--honey .menu__title {
-    background-image: url(../img/bg/bars_honey.jpg);
-    background-position: left top;
-    background-repeat: no-repeat; }
-  .menu__item--wild .menu__title {
-    background-image: url(../img/bg/bars_wildberries.jpg);
-    background-position: left top;
-    background-repeat: no-repeat; }
-  .menu__item--active .menu__desc {
-    position: relative; }
-    .menu__item--active .menu__desc::after {
-      content: "";
-      opacity: 0.5;
-      top: 0;
-      left: 0;
-      bottom: 0;
-      right: 0;
-      position: absolute;
-      z-index: -1;
-      border-color: #0d0d0d; }
-  .menu__item--active .menu__title {
-    width: 10%; }
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width: 5rem; }
 
-.menu__title--right {
-  width: 0;
-  overflow: hidden; }
-
-.menu__desc {
+.menu__content {
   font-size: 16px;
   width: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: rgba(47, 50, 52, 0.93); }
 
 .form {
   padding: 85px 80px 90px 80px; }
