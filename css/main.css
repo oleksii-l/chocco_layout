@@ -1067,7 +1067,11 @@ a {
   background-image: url(../img/bg/menu_left.jpg);
   background-repeat: no-repeat;
   background-position: left top;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row; }
 
 .container_menu {
   color: #fff; }
@@ -1115,6 +1119,10 @@ a {
   width: 0;
   overflow: hidden;
   background-color: rgba(47, 50, 52, 0.93); }
+
+.menu__text {
+  padding: 4rem 2rem;
+  color: #fff; }
 
 .form {
   padding: 85px 80px 90px 80px; }
