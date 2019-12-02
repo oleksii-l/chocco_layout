@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  margin-bottom: rem(35px);
   
 }
 
@@ -42,11 +42,18 @@
 .advantage__title {
   font-size: rem(27px);
   font-weight: 800;
-  margin-top: rem(35px);
+  margin-top: rem(30px);
 }
 
 .advantage__desc {
   font-weight: 300;
-  margin-top: rem(30px);
+  margin-top: rem(20px);
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  .advantage {
+    flex-direction: row;
+    margin-right: rem(50px);
+  }
 }

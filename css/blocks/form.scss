@@ -50,7 +50,6 @@
 
   &--radio {
     display: none;
- 
   }
 
   &--checkbox {
@@ -75,7 +74,7 @@
 }
 
 .form__radio-fake::after {
-  content: '';
+  content: "";
   display: inline-block;
   height: 0;
   width: 0;
@@ -112,7 +111,7 @@
 }
 
 .form__checkbox-fake::after {
-  content: '';
+  content: "";
   display: inline-block;
   height: 0;
   width: 0;
@@ -130,4 +129,10 @@
 .form__input--checkbox:checked + .form__checkbox-fake::after {
   height: rem(10px);
   width: rem(10px);
+}
+
+@media (max-width: 768px) {
+  .form__block--inline {
+    justify-content: center;
+  }
 }

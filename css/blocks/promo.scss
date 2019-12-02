@@ -56,15 +56,29 @@
 
   &:last-child {
     margin-right: 0;
+  }
 }
+
+.promo__right {
+  width: rem(503px);
+  height: rem(523px);
+}
+
+.promo__img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
   .container_promo {
-      flex-direction: column-reverse;
-      align-items: center;
-      justify-content: center;
-      width: rem(550px);
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: rem(550px);
   }
 
   .promo__left {
@@ -85,7 +99,17 @@
     align-items: center;
   }
 
+  .promo__adv {
+    text-align: center;
+  }
+
   header .phone {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
   }
 }

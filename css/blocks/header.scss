@@ -13,3 +13,9 @@
 
     margin-top: rem(24px);
   }
+
+  @media (max-width: 768px) {
+.header__container {
+    width: 95%;
+}
+  }

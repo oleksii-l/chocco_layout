@@ -22,3 +22,18 @@
     font-size: rem(21px);
     color: $extrablack;
 }
+
+@media (max-width: 768px) {
+    .container_contacts {
+        width: 95%;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .container_contacts {
+        flex-direction: column;
+    }
+    
+}
+
