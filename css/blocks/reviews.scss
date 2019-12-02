@@ -105,3 +105,21 @@
 .reviews__item--active .reviews__link {
     cursor: default;
 }
+
+@media (max-width: 768px) {
+    .container_reviews {
+        width: rem(460px);
+    }
+
+    .review {
+        flex-direction: column;
+        align-items: center;
+        padding: rem(65px) rem(30px) rem(38px);
+    }
+
+    .review__desc {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

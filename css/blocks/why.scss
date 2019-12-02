@@ -56,3 +56,19 @@
         display: none;
       }
 }
+
+@media (max-width: 768px) {
+.container_why {
+  width: rem(450px);
+}
+
+  .why__list {
+    flex-direction: column;
+  }
+
+  .why__item {
+    &::after {
+      display: none;
+    }
+  }
+}

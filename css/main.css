@@ -393,6 +393,19 @@ template {
 [hidden] {
   display: none; }
 
+@media (max-width: 768px) {
+  .container_promo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
+
 @font-face {
   font-family: 'Alegreya Sans';
   src: url("../fonts/AlegreyaSans-Thin.woff") format("woff");
@@ -629,6 +642,50 @@ a {
   .promo__item:last-child {
     margin-right: 0; }
 
+@media (max-width: 768px) {
+  .container_promo {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 34.375rem; }
+  .promo__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .promo__title {
+    font-size: 2.5625rem;
+    text-align: center; }
+  .promo__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  header .phone {
+    display: none; } }
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -807,6 +864,17 @@ a {
   .why__item:last-child::after {
     display: none; }
 
+@media (max-width: 768px) {
+  .container_why {
+    width: 28.125rem; }
+  .why__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .why__item::after {
+    display: none; } }
+
 .advantage {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -964,6 +1032,30 @@ a {
 .reviews__item--active .reviews__link {
   cursor: default; }
 
+@media (max-width: 768px) {
+  .container_reviews {
+    width: 28.75rem; }
+  .review {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 4.0625rem 1.875rem 2.375rem; }
+  .review__desc {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
 .team {
   background-image: url(../img/bg/leaf3.png);
   background-position: right top;
@@ -1063,6 +1155,16 @@ a {
   margin-top: 0.6875rem;
   width: 0;
   overflow: hidden; }
+
+@media (max-width: 768px) {
+  .container_team {
+    width: 30.3125rem; }
+  .team-members {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .team-members__item {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%; } }
 
 .menu {
   -webkit-box-pack: end;
@@ -1301,6 +1403,25 @@ a {
     background-image: url(../img/bg/leaf4.png);
     bottom: 11.6875rem;
     right: 0.9375rem; }
+
+@media (max-width: 768px) {
+  .order {
+    font-size: 0.9375rem; }
+    .order::before {
+      display: none; }
+    .order::after {
+      display: none; }
+  .container_order {
+    width: 30rem; }
+  .form__elem {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .form__row {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
 .map {
   position: relative; }

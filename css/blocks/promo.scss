@@ -58,3 +58,34 @@
     margin-right: 0;
 }
 }
+
+@media (max-width: 768px) {
+  .container_promo {
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+      width: rem(550px);
+  }
+
+  .promo__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .promo__title {
+    font-size: rem(41px);
+    text-align: center;
+  }
+
+  .promo__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .phone {
+    display: none;
+  }
+}

@@ -23,3 +23,30 @@
     right: rem(15px);
   }
 }
+
+@media (max-width: 768px) {
+  .order {
+    font-size: rem(15px);
+
+    &::before{
+      display: none;
+    }
+
+    &::after{
+      display: none;
+    }
+  }
+
+  .container_order {
+    width: rem(480px);
+  }
+
+  .form__elem {
+    flex-direction: column;
+  }
+
+  .form__row {
+    justify-content: center;
+  }
+
+}

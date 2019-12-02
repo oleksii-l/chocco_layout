@@ -104,5 +104,18 @@
     margin-top: rem(11px);
     width: 0;
     overflow: hidden;
+}
 
+@media (max-width: 768px) {
+    .container_team {
+        width: rem(485px);
+    }
+    
+    .team-members {
+        flex-wrap: wrap;
+    }
+
+    .team-members__item {
+        flex-basis: 45%;
+    }
 }
