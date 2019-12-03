@@ -1005,7 +1005,11 @@ a {
 .advantage__img {
   z-index: 2;
   max-width: 100%;
-  max-height: 100%; }
+  max-height: 100%;
+  stroke: #0d0d0d;
+  fill: transparent;
+  stroke-width: 0.75;
+  stroke-miterlimit: 10; }
 
 .advantage__title {
   font-size: 1.6875rem;
@@ -1632,7 +1636,8 @@ a {
   width: 1.3125rem;
   height: 1.3125rem;
   -o-object-fit: cover;
-  object-fit: cover; }
+  object-fit: cover;
+  fill: #666666; }
 
 .social__item--active .social__icon {
-  background-color: #010101; }
+  fill: #0d0d0d; }

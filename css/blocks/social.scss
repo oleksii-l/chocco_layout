@@ -7,11 +7,12 @@
     width: rem(21px);
     height: rem(21px);
     object-fit: cover;
+    fill: $gray;
 }
 
 .social__item{
 
     &--active .social__icon{
-        background-color: $extrablack;
+        fill: $black;
     }
 }
