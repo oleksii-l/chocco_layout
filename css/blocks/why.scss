@@ -76,3 +76,14 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .why {
+    background: none;
+
+    &::after {
+      content: "";
+      display: none;      
+    }
+  }
+}

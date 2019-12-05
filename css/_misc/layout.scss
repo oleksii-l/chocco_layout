@@ -24,6 +24,7 @@ body {
 
 .container {
   width: rem(945px);
+  max-width: 100%;
   margin: 0 auto;
   z-index: 2;
 }

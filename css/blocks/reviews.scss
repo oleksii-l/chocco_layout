@@ -127,3 +127,9 @@
         text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .review__desc{
+        margin-left: 0;
+    }
+}

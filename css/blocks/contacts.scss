@@ -34,6 +34,15 @@
     .container_contacts {
         flex-direction: column;
     }
+
+    .contacts__left {
+        align-items: center;
+        margin-top: rem(20px);
+    }
+    .contacts__right {
+        width: 35%;
+        margin-bottom: 50px;
+    }
     
 }
 

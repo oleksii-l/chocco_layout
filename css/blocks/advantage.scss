@@ -60,4 +60,13 @@
     flex-direction: row;
     margin-right: rem(50px);
   }
+
+  .advantage__block {
+    align-items: flex-start;
+    margin-left: 50px;
+  }
+
+  .advantage__desc {
+    text-align: left;
+  }
 }
