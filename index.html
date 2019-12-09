@@ -37,10 +37,55 @@
             <a class="fixed-menu__dot" href="#" aria-label="О нас"></a>
         </li>
     </ul>
-    <div class="nav-trigger">
-        <a href="#" class="nav-trigger__link">
-            <div class="nav-trigger__badge"></div>
-        </a>
+
+    <div class="burger" id="burger">
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+        <span class="burger__line"></span>
+    </div>
+
+    <div class="overlay" id="overlay">
+        <div class="overlay__menu" id="overlay__menu">
+            <nav class="over-menu">
+                <ul class="over-menu__list">
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            О нас
+                        </a>
+                    </li>
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            Батончики
+                        </a>
+                    </li>
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            Команда
+                        </a>
+                    </li>
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            Меню
+                        </a>
+                    </li>
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            Отзывы
+                        </a>
+                    </li>
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            Как мы работаем
+                        </a>
+                    </li>
+                    <li class="over-menu__item">
+                        <a href="#" class="over-menu__link">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <header class="header">
@@ -260,12 +305,13 @@
                                 </div>
                                 <div class="slide__content">
                                     <div class="ingradients">
-                                        
+
 
                                     </div>
                                     <h3 class="slide__title">Батончик “Морские водоросли”</h3>
                                     <p class="slide__desc">
-                                        Гранола из морских водорослей с овсом, миндалем и тыквенными семечками. В состав
+                                        Гранола из морских водорослей с овсом, миндалем и тыквенными семечками. В
+                                        состав
                                         также входят: сухое молоко, заменитель сахара и какао бобы.
                                     </p>
                                     <div class="slide__consist">
@@ -289,8 +335,10 @@
                     </ul>
                 </div>
             </div>
-            <div class="slider-arrow slider-arrow--left"><img src="img/icons/arrow-scroll-left.png" alt="" class="slider-arrow__img"></div>
-            <div class="slider-arrow slider-arrow--right"><img src="img/icons/arrow-scroll-right.png" alt="" class="slider-arrow__img"></div>
+            <div class="slider-arrow slider-arrow--left"><img src="img/icons/arrow-scroll-left.png" alt=""
+                    class="slider-arrow__img"></div>
+            <div class="slider-arrow slider-arrow--right"><img src="img/icons/arrow-scroll-right.png" alt=""
+                    class="slider-arrow__img"></div>
 
         </section>
 
@@ -328,7 +376,8 @@
                         </div>
                         <h4 class="team-members__name">Мила Рыжкова</h4>
                         <div class="team-members__job">PR, маркетинг </div>
-                        <p class="team-members__desc">По всем вопросам сотрудничества и рекламы писать только Миле.</p>
+                        <p class="team-members__desc">По всем вопросам сотрудничества и рекламы писать только Миле.
+                        </p>
                     </li>
                 </ul>
             </div>
@@ -350,9 +399,12 @@
                             <p>
                                 Рекомендуем употреблять батончики вместе с кокосовым или миндальным
                                 молоком. Так и вкуснее, и полезнее.
-                                Ну чего ещё хотеть от жизни? Батончик – он твой лучший друг и радует всех вокруг. Как
-                                классно, что можно питаться полезно и вкусно, а не как попало. Бабуля, конечно, за такую
-                                еду не похвалит, но кто её будет спрашивать – никто. Надо бы, кстати, бабулю поздравить
+                                Ну чего ещё хотеть от жизни? Батончик – он твой лучший друг и радует всех вокруг.
+                                Как
+                                классно, что можно питаться полезно и вкусно, а не как попало. Бабуля, конечно, за
+                                такую
+                                еду не похвалит, но кто её будет спрашивать – никто. Надо бы, кстати, бабулю
+                                поздравить
                                 с днём Победы.
                             </p>
                         </div>
@@ -368,7 +420,8 @@
                         <div class="menu__text">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit iusto
-                                eligendi recusandae, nam laudantium sed ipsum, exercitationem quod porro autem molestias
+                                eligendi recusandae, nam laudantium sed ipsum, exercitationem quod porro autem
+                                molestias
                                 perspiciatis quibusdam nisi dolor culpa quis suscipit inventore eos.
                             </p>
                         </div>
@@ -383,7 +436,8 @@
                         <div class="menu__text">
                             <p>
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit iusto
-                                eligendi recusandae, nam laudantium sed ipsum, exercitationem quod porro autem molestias
+                                eligendi recusandae, nam laudantium sed ipsum, exercitationem quod porro autem
+                                molestias
                                 perspiciatis quibusdam nisi dolor culpa quis suscipit inventore eos.
                             </p>
                         </div>
@@ -578,5 +632,7 @@
     </div>
 
 </body>
+
+<script src="src/overlay.js"></script>
 
 </html>
