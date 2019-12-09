@@ -1,0 +1,13 @@
+.measure{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.measure__num {
+    font-weight: bold;
+}

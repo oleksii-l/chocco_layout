@@ -1,0 +1,37 @@
+.menu-window {
+  position: absolute;
+  top: 0;
+  left: 89px;
+  background-color: $white;
+  padding: 26px 20px 26px 30px;
+  width: 271px;
+  opacity: 0.9;
+}
+
+.menu-window__icon {
+  width: 34px;
+  height: 34px;
+}
+
+.menu-window__item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.menu-window__title {
+  margin-left: 10px;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .menu-window {
+    right: 89px;
+    left: auto;
+  }
+}

@@ -1,0 +1,39 @@
+.ingradients {
+    position: relative;
+}
+
+.ingradients__menu{
+    width: 89px;
+    height: 89px;
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    position: absolute;
+    top: -140px;
+    right: -140px;
+}
+
+.ingradients__icon {
+    margin-top: rem(10px);
+    width: rem(55px);
+    height: rem(55px);
+    fill: $white;
+}
+
+.ingradients__title {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    color: $white;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .ingradients__menu {
+        top: 0;
+    }
+}

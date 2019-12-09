@@ -54,6 +54,10 @@ body {
       color: $white;
     }
   }
+
+  &--left {
+    text-align: left;
+  }
 }
 
 // tag styles reset

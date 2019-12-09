@@ -8,6 +8,7 @@ $darkgray: #333333;
 $bg_gray: #f2f5f4;
 $green: #0f5a47;
 $lightblue: #b0f7ff;
+$blue: #61c4d9;
 
 $z-fixed-menu: 100;
 
@@ -39,4 +40,10 @@ $z-fixed-menu: 100;
 @import "blocks/marker.scss";
 @import "blocks/contacts.scss";
 @import "blocks/social.scss";
+@import "blocks/bars.scss";
+@import "blocks/slider.scss";
+@import "blocks/slide.scss";
+@import "blocks/ingradients.scss";
+@import "blocks/measure.scss";
+@import "blocks/menu-window.scss";
 
