@@ -1,12 +1,24 @@
-.slider-arrow {
-  position: absolute;
-  top: 50%;
-}
+.slider__link {
+  &::before {
+    content: '';
+    background-image: url(../img/icons/arrow-scroll-left.png);
+    width: 15px;
+    height: 31px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+  }
 
-.slider-arrow--left {
-  left: 60px;
-}
-
-.slider-arrow--right {
-  right: 60px;
+  &::after {
+    content: '';
+    background-image: url(../img/icons/arrow-scroll-right.png);
+    width: 15px;
+    height: 31px;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 0;
+  }
 }

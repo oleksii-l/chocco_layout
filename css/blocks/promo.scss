@@ -61,11 +61,12 @@
 
 .promo__left {
   width: 50%;
+  z-index: 2;
 }
 
 .promo__right {
-  width: rem(503px);
-  height: rem(523px);
+  max-width: rem(503px);
+  max-height: rem(523px);
 }
 
 .promo__img {
@@ -118,6 +119,16 @@
 
   header .phone {
     display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo__right {
+    max-height: 21.6875rem;
+  }
+
+  .promo__list {
+    width: 100%;
   }
 }
 

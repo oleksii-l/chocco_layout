@@ -1,5 +1,6 @@
 .slide{
     display: flex;
+    position: relative;
 }
 
 .slide__title{
@@ -12,6 +13,12 @@
 .slide__img-wrapper {
     margin-right: 50px;
     position: relative;
+    flex-shrink: 0;
+}
+
+.slide__img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .slide__content {
@@ -56,5 +63,9 @@
 
     .slide__desc {
         text-align: center;
+    }
+
+    .slide__img-wrapper {
+        margin-right: 0;
     }
 }

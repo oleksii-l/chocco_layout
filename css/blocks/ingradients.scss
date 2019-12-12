@@ -1,8 +1,4 @@
-.ingradients {
-    position: relative;
-}
-
-.ingradients__menu{
+.ingradients{
     width: 89px;
     height: 89px;
     background-color: $blue;
@@ -10,10 +6,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 40px;
     position: absolute;
-    top: -140px;
-    right: -140px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
 }
 
 .ingradients__icon {
