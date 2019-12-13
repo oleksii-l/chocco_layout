@@ -1778,9 +1778,13 @@ a {
   -ms-flex-align: center;
   align-items: center;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: -146px;
+  right: 332px;
   cursor: pointer; }
+  .ingradients:hover {
+    background-color: #b0f7ff; }
+    .ingradients:hover .menu-window {
+      display: block; }
 
 .ingradients__icon {
   margin-top: 0.625rem;
@@ -1797,6 +1801,9 @@ a {
   margin-top: 5px; }
 
 @media (max-width: 768px) {
+  .ingradients {
+    top: 0;
+    right: 0; }
   .ingradients__menu {
     top: 0; } }
 
@@ -1822,7 +1829,8 @@ a {
   background-color: #fff;
   padding: 26px 20px 26px 30px;
   width: 271px;
-  opacity: 0.9; }
+  opacity: 0.9;
+  display: none; }
 
 .menu-window__icon {
   width: 34px;
@@ -1909,8 +1917,8 @@ a {
   position: fixed;
   top: 20px;
   right: 10%;
-  height: 25px;
-  width: 40px;
+  height: 24px;
+  width: 26px;
   cursor: pointer;
   z-index: 15;
   -webkit-transition: all 0.4s;
@@ -1918,7 +1926,7 @@ a {
   transition: all 0.4s; }
   .burger__line {
     width: 100%;
-    height: 2px;
+    height: 4px;
     position: absolute;
     background-color: #fff;
     top: 0;

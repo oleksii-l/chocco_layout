@@ -7,9 +7,18 @@
     justify-content: flex-start;
     align-items: center;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -146px;
+    right: 332px;
     cursor: pointer;
+
+    &:hover {
+        background-color: $lightblue;
+
+        .menu-window {
+            display: block;
+        }
+    }
+
 }
 
 .ingradients__icon {
@@ -29,6 +38,11 @@
 }
 
 @media (max-width: 768px) {
+    .ingradients{
+        top: 0;
+        right: 0;
+    }
+
     .ingradients__menu {
         top: 0;
     }
