@@ -9,22 +9,15 @@
 .advantage__top {
   display: flex;
   position: relative;
-  width: rem(69px);
-  height: rem(69px);
+}
 
-  &::before {
-    content: "";
-    display: inline-block;
-    width: rem(124px);
-    height: rem(125px);
-    background-color: $bg_gray;
-    border-radius: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-  }
+.advantage__cicle{
+  width: rem(124px);
+  height: rem(124px);
+  background-color: $bg_gray;
+  border-radius: 100%;
+  position: relative;
+  z-index: -1;
 }
 
 .advantage__block {
@@ -41,6 +34,12 @@
   fill: transparent;
   stroke-width:0.75;
   stroke-miterlimit:10;
+  width: rem(69px);
+  height: rem(69px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .advantage__title {
