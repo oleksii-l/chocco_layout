@@ -14,9 +14,9 @@
 
   &::before {
     content: "";
-    display: block;
-    width: rem(126px);
-    height: rem(126px);
+    display: inline-block;
+    width: rem(124px);
+    height: rem(125px);
     background-color: $bg_gray;
     border-radius: 100%;
     position: absolute;
@@ -58,7 +58,7 @@
 @media (max-width: 480px) {
   .advantage {
     flex-direction: row;
-    margin-right: rem(50px);
+    margin-right: 0;
   }
 
   .advantage__block {

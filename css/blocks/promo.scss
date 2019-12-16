@@ -95,6 +95,11 @@
     width: rem(550px);
   }
 
+  .promo__right {
+    max-width: 27.4375rem;
+    max-height: 29.6875rem;
+  }
+
   .promo__left {
     display: flex;
     flex-direction: column;
@@ -125,6 +130,10 @@
 @media (max-width: 480px) {
   .promo__right {
     max-height: 21.6875rem;
+  }
+
+  .promo__left {
+    width: 95%;
   }
 
   .promo__list {
