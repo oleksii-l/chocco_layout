@@ -1,24 +1,34 @@
-.slider__link {
-  &::before {
-    content: '';
-    background-image: url(../img/icons/arrow-scroll-left.png);
-    width: 15px;
-    height: 31px;
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-  }
+.slider{
+  width: 100%;
+  position: relative;
 
-  &::after {
-    content: '';
-    background-image: url(../img/icons/arrow-scroll-right.png);
-    width: 15px;
-    height: 31px;
-    display: block;
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    right: 0;
-  }
+}
+
+.slider__wrapp {
+  overflow: hidden;
+}
+
+.slider__list{
+    height: 500px;
+    position: relative;
+    display: flex;
+}
+
+.slider__page-prev {
+  background-image: url(../img/icons/arrow-scroll-left.png);
+  width: 15px;
+  height: 31px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+}
+
+.slider__page-next {
+  background-image: url(../img/icons/arrow-scroll-right.png);
+  width: 15px;
+  height: 31px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 0;
 }
