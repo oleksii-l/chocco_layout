@@ -88,6 +88,13 @@
         </div>
     </div>
 
+    <div id="modal" class="modal">
+        <div id="message" class="modal__message"></div>
+        <button id="close" class="button">
+            закрыть
+        </button>
+    </div>
+
     <header class="header">
         <div class="container header__container">
             <a href="" class="logo"><img class="logo__img" src="img/content/logo.png"></a>
@@ -672,16 +679,16 @@
             <div class="container container_order">
                 <div class="title title--color--green">Закажите доставку</div>
                 <div class="form">
-                    <form action="" class="form__elem">
+                    <form id="form" action="" class="form__elem">
                         <div class="form__column">
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__block-title">Имя</div>
-                                    <input type="text" class="form__input">
+                                    <input name="name" type="text" class="form__input">
                                 </label>
                                 <label class="form__block">
                                     <div class="form__block-title">Телефон</div>
-                                    <input type="text" class="form__input">
+                                    <input name="phone" type="text" class="form__input">
                                 </label>
                             </div>
                             <div class="form__row">
@@ -714,7 +721,7 @@
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__block-title">Комментарий</div>
-                                    <textarea class="form__input form__input--textarea"></textarea>
+                                    <textarea name="comment" class="form__input form__input--textarea"></textarea>
                                 </label>
                             </div>
 
@@ -738,7 +745,7 @@
                                 </label>
                             </div>
                             <div class="form__row">
-                                <button type="submit" class="button">Заказать</button>
+                                <button id="send" type="submit" class="button">Заказать</button>
                                 <button type="reset" class="form__clear">Очистить</button>
                             </div>
 
@@ -818,5 +825,6 @@
 <script src="src/review.js"></script>
 <script src="src/slider.js"></script>
 <script src="src/accordion.js"></script>
+<script src="src/form.js"></script>
 
 </html>
