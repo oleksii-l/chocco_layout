@@ -650,6 +650,30 @@
                 </div>
             </section>
 
+            <section class="section how">
+                <h2 class="title">Как мы работаем</h2>
+                <div class="video__container">
+                    <div class="video__player">
+                        <video id="video" poster="img/icons/player-bg.png">
+                            <source src="img/content/video.mp4" type="video/mp4">
+                        </video>
+                        <img src="img/icons/play-white.png" alt="Icon" class="play video__play">
+                    </div>
+                    <div class="video__toolbar">
+                        <div class="duration">
+                            <img src="img/icons/play.png" alt="Icon" class="duration__icon play">
+                            <input type="range" class="duration__length" id="durationLevel" min="0">
+                        </div>
+                        <div class="sound">
+                            <img src="img/icons/sound-icon.png" alt="Icon" class="sound__img" id="micLevel">
+                            <div class="sound__volume">
+                                <input type="range" class="duration__length duration__length--other" id="volumeLevel" min="0" max="10">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <section class="section order">
                 <div class="container container_order">
                     <div class="title title--color--green">Закажите доставку</div>
@@ -819,6 +843,7 @@
 <script src="src/accordion.js"></script>
 <script src="src/form.js"></script>
 <script src="src/onepagescrll.js"></script>
+<script src="src/video.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script src="src/map.js"></script>
 
