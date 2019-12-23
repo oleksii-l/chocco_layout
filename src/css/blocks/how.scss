@@ -1,0 +1,18 @@
+.how {
+    background-color: $lightgray;
+    align-items: center;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: rem(-100px);
+        background-image: url(../img/bg/blackberry.png);
+        width: rem(197px);
+        height: rem(264px);
+        z-index: 2;
+    }
+}
+
+

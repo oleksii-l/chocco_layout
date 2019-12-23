@@ -9,8 +9,8 @@
 }
 
 .video__container{
+    width: rem(660px);
     height: 100vh;
-    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,4 +90,10 @@
 
 .duration__icon, .sound__img{
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .video__container{
+        width: 95%;   
+    }
 }
