@@ -551,7 +551,7 @@
                 <h2 class="title title--menu title--color--white">меню</h2>
                 <ul class="menu__accardeon">
                     <li class="menu__item">
-                        <a href="#" class="menu__link" style="background-image: url(img/bg/bars_milk.jpg)">
+                        <a href="#" class="menu__link" style="background-image: url(src/img/bg/bars_milk.jpg)">
                             <span class="menu__title">Батончики с молоком</span>
                         </a>
 
@@ -575,7 +575,7 @@
                     </li>
 
                     <li class="menu__item">
-                        <a href="#" class="menu__link" style="background-image: url(img/bg/bars_honey.jpg)">
+                        <a href="#" class="menu__link" style="background-image: url(src/img/bg/bars_honey.jpg)">
                             <span class="menu__title">С медом и фруктами</span>
                         </a>
                         <div class="menu__content">
@@ -591,7 +591,7 @@
                     </li>
 
                     <li class="menu__item">
-                        <a href="#" class="menu__link" style="background-image: url(img/bg/bars_wildberries.jpg)">
+                        <a href="#" class="menu__link" style="background-image: url(src/img/bg/bars_wildberries.jpg)">
                             <span class="menu__title">Дикие ягоды</span>
                         </a>
                         <div class="menu__content">
@@ -667,7 +667,8 @@
                         <div class="sound">
                             <img src="src/img/icons/sound-icon.png" alt="Icon" class="sound__img" id="micLevel">
                             <div class="sound__volume">
-                                <input type="range" class="duration__length duration__length--other" id="volumeLevel" min="0" max="10">
+                                <input type="range" class="duration__length duration__length--other" id="volumeLevel"
+                                    min="0" max="10">
                             </div>
                         </div>
                     </div>
@@ -756,9 +757,7 @@
             </section>
 
             <section class="section map">
-                <div class="map__img-wrapper">
-                    <div id="map" class="map"></div>
-                </div>
+                <div id="map" class="map__div"></div>
                 <footer class="contacts">
                     <div class="container container_contacts">
                         <div class="contacts__left">
@@ -831,20 +830,25 @@
             <li class="fixed-menu__item">
                 <a class="fixed-menu__dot" href="#" aria-label="О нас" data-scroll-to="7"></a>
             </li>
+            <li class="fixed-menu__item">
+                <a class="fixed-menu__dot" href="#" aria-label="О нас" data-scroll-to="8"></a>
+            </li>
         </ul>
     </div>
 
 </body>
 
+<script src="src/js/slider.js"></script>
 <script src="src/js/overlay.js"></script>
 <script src="src/js/team.js"></script>
 <script src="src/js/review.js"></script>
-<script src="src/js/slider.js"></script>
 <script src="src/js/accordion.js"></script>
 <script src="src/js/form.js"></script>
 <script src="src/js/onepagescrll.js"></script>
 <script src="src/js/video.js"></script>
-<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+<script src="https://api-maps.yandex.ru/2.1/?apikey=30499957-9d2b-428e-ac91-3bc0b03eab69&lang=ru_RU"
+    type="text/javascript">
+    </script>
 <script src="src/js/map.js"></script>
 
 </html>
