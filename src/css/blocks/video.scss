@@ -88,8 +88,17 @@
     margin: 0 15px;
 }
 
+.sound__volume {
+    display: flex;
+}
+
+.duration__icon {
+    margin-left: 10px;
+}
+
 .duration__icon, .sound__img{
     cursor: pointer;
+    margin-right: 10px;
 }
 
 @media (max-width: 768px) {

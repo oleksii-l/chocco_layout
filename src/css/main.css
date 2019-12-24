@@ -1212,7 +1212,8 @@ a {
 
 .team-members__img-wrapper {
   width: 13.75rem;
-  height: 17.9375rem; }
+  height: 17.9375rem;
+  cursor: pointer; }
 
 .team-members__img {
   max-width: 100%;
@@ -1226,7 +1227,8 @@ a {
   font-size: 1.25rem;
   font-weight: 800;
   margin-top: 1.6875rem;
-  position: relative; }
+  position: relative;
+  cursor: pointer; }
   .team-members__name:after {
     content: "";
     display: block;
@@ -1245,7 +1247,8 @@ a {
   width: 0;
   height: 0;
   overflow: hidden;
-  text-align: center; }
+  text-align: center;
+  cursor: pointer; }
 
 .team-members__desc {
   text-align: center;
@@ -1254,7 +1257,8 @@ a {
   margin-top: 0.5625rem;
   width: 0;
   height: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  cursor: pointer; }
 
 @media (max-width: 768px) {
   .container_team {
@@ -2127,8 +2131,17 @@ a {
   align-items: center;
   margin: 0 15px; }
 
+.sound__volume {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.duration__icon {
+  margin-left: 10px; }
+
 .duration__icon, .sound__img {
-  cursor: pointer; }
+  cursor: pointer;
+  margin-right: 10px; }
 
 @media (max-width: 768px) {
   .video__container {

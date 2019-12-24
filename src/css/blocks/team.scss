@@ -60,6 +60,7 @@
 .team-members__img-wrapper {
   width: rem(220px);
   height: rem(287px);
+  cursor: pointer;
 }
 
 .team-members__img {
@@ -75,6 +76,7 @@
   font-weight: 800;
   margin-top: rem(27px);
   position: relative;
+  cursor: pointer;
 
   &:after {
     content: "";
@@ -95,6 +97,7 @@
   height: 0;
   overflow: hidden;
   text-align: center;
+  cursor: pointer;
 }
 
 .team-members__desc {
@@ -105,6 +108,7 @@
   width: 0;
   height: 0;
   overflow: hidden;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
